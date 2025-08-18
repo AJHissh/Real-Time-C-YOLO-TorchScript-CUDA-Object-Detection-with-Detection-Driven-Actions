@@ -33,7 +33,7 @@ cmake --build . --config Release --parallel 8
 ```
 To rebuild after making changes, you can:
 ```
-  cmake --build . --target clean
+cmake --build . --target clean
 ```
 then build again with:
   ```
