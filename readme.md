@@ -1,4 +1,4 @@
-# This is a program that detects objects defined in a yolo model based on one or more classes/properties. 
+## This is a program that detects objects defined in a yolo model based on one or more classes/properties. 
 
 This script is specifically tailored to detect one class.
 
@@ -31,9 +31,8 @@ cmake .. -G "Visual Studio 17 2022" -A x64
 ```
 cmake --build . --config Release --parallel 8
 ```
-
-3.1 To rebuild after making changes, you can:
-  ```
+To rebuild after making changes, you can:
+```
   cmake --build . --target clean
 ```
 then build again with:
@@ -43,7 +42,7 @@ then build again with:
 
 4. The .exe file will be placed in the Release folder
 
-### Additional Steps:
+Additional Steps:
 
 1. Place the torchscript file within the Release folder where the .exe file was created
 2. Move required files from Libtorch, Cuda, OpenCV, NVTX and Visual Studio folders into the Release folder
