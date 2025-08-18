@@ -1,4 +1,4 @@
-#This is a program that detects objects defined in a yolo model based on one or more classes/properties. 
+# This is a program that detects objects defined in a yolo model based on one or more classes/properties. 
 
 #This script is specifically tailored to detect one class.
 
