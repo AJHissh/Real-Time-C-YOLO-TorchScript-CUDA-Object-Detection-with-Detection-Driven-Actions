@@ -52,7 +52,7 @@ endif()
 find_package(OpenCV REQUIRED)
 
 
-add_executable(ab main.cpp dxgi_capture.cpp dxgi_capture.h)
+add_executable(main main.cpp dxgi_capture.cpp dxgi_capture.h)
 
 target_include_directories(ab PRIVATE
     ${OpenCV_INCLUDE_DIRS}
