@@ -11,7 +11,7 @@ This will then create a .pt file which you can turn into a torchscript file via 
 
 ### To build the script make sure you have the following installed:
 ```
-Visual Studio 17 2022 
+Visual Studio 17 2022 + Windows SDK v10 
 Libtorch 
 Cuda 
 Cmake 
