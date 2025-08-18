@@ -18,8 +18,9 @@ NVTX_v3
 1. Place all files (CMakeLists.txt, main.cpp, dxgi .....) inside your working directory
 
 2. Create a build directory and cd into it then run the following:
+```
 cmake .. -G "Visual Studio 17 2022" -A x64
-
+```
 3. Then run the following to build the program
 cmake --build . --config Release --parallel 8
 
