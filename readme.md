@@ -1,6 +1,6 @@
 ## This is a program that detects objects defined in a yolo model based on one or more classes/properties. 
 
-This script is specifically tailored to detect one class.
+This script is specifically tailored to detect one class and uses CUDA for GPU Acceleration.
 
 Here is an example command to train a yolov8n model 
 ```
