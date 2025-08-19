@@ -189,7 +189,7 @@ std::vector<std::tuple<float, float, float, float, int, float, float>> run_detec
             return targets; 
         }
 
-        auto boxes = filtered.slice(0, 0, 4);  // [cx,cy,w,h] for all detections
+        auto boxes = filtered.slice(0, 0, 4);  
         
         auto scale_tensor = torch::tensor(scale, torch::kFloat32).to(torch::kCUDA);
         auto pad_x_tensor = torch::tensor(pad_x, torch::kFloat32).to(torch::kCUDA);
