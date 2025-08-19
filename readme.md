@@ -48,3 +48,6 @@ Additional Steps:
 1. Place the torchscript file within the Release folder where the .exe file was created
 2. Move required files from Libtorch, Cuda, OpenCV, NVTX and Visual Studio folders into the Release folder
 3. Modify all paths in code to fit your setup
+
+Note:
+If on a laptop, DXGI will only work if you use an external monitor as your main display.
